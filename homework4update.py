@@ -8,7 +8,7 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardBut
 import asyncio
 
 # Инициализация бота и диспетчера
-bot = Bot(token='7488434207:AAGaZzGU__wkyE5u3k8S7GWTIVzxvjo-T5k')
+bot = Bot(token='')
 storage = MemoryStorage()
 router = Router()
 dp = Dispatcher(storage=storage)
